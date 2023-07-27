@@ -35,6 +35,7 @@ view: inventory_metrics_overview {
     value_format: "100"
     sql: ${TABLE}.Client_MANDT ;;
     primary_key: yes
+    hidden: no
   }
 
   dimension: company_code_bukrs {
