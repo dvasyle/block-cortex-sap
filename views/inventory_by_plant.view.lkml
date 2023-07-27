@@ -90,10 +90,8 @@ view: inventory_by_plant {
 
   dimension: client_mandt {
     type: string
-    value_format: "100"
-    sql: ${TABLE}.Client_MANDT ;;
+    sql: ${TABLE}.Client_MANDT = 100 ;;
     primary_key: yes
-    hidden: no
   }
 
   dimension: language_spras {
