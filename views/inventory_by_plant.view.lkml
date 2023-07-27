@@ -90,8 +90,10 @@ view: inventory_by_plant {
 
   dimension: client_mandt {
     type: string
+    value_format: "100"
     sql: ${TABLE}.Client_MANDT ;;
     primary_key: yes
+    hidden: no
   }
 
   dimension: language_spras {
@@ -341,7 +343,7 @@ view: inventory_by_plant {
     sql: ${TABLE}.WeekEndDate ;;
     hidden: no
   }
-  
+
   measure: count {
     type: count
     drill_fields: []
