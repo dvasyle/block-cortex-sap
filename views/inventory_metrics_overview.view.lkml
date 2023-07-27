@@ -32,6 +32,7 @@ view: inventory_metrics_overview {
 
   dimension: client_mandt {
     type: string
+    value_format: "100"
     sql: ${TABLE}.Client_MANDT ;;
     primary_key: yes
   }
