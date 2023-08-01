@@ -1,5 +1,5 @@
 constant: CONNECTION_NAME {
-  value: "bigquery_connection"
+  value: "dvasyle_bigquery_connection"
   export: override_required
 }
 
