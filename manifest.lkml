@@ -9,7 +9,7 @@ constant: GCP_PROJECT {
 }
 
 constant: REPORTING_DATASET {
-  value: "REPORTING_S4H"
+  value: "REPORTING"
   export: override_required
 }
 
